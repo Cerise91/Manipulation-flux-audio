@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM2 Audio</title>
+    <link rel="stylesheet" type="text/css" href="webaudio.css">
+</head>
+<body>
+	<body style="background-color:#EDD5F5;">
+	</body>
+	<div id="menu">
+		<h2><FONT color="black">DM2 : Manipulation de flux audio </h2>
+</h2>
+		<p> Dounia Messaoudi Peip2 option web</p>
+        <input type="button" id="Frequence" value="Visualiser la Fréquence">
+        <input type="button" id="Onde" value="Visualiser l'Onde">
+	</div>
+    <canvas id="canvas" width="252" height="256"></canvas>
+    <div id="audio">
+		<input type="button" id="gain" value="Filtre Gain">
+		<input type="button" id="lowpass" value="Filtre Lowpass">
+		<input type="button" id="wave" value="Filtre Wave">
+		<input type="button" id="delay" value="Filtre Delay">
+		<input type="button" id="reset" value="Reset">
+	<br />
+	<br />
+	</div>	
+	<div id="renseignement">
+    <script type="text/javascript" src="webaudio.js"></script>
+	<p> Filtre gain : augmentation du gain </p>
+	<p> Filtre low pass : filtre passe-bas (atténuation des hautes fréquences) </p>
+	<p> Filtre wave : distorsion donnant une forme d'onde au signal </p>
+	<p> Filtre delay : phénomène de retard (4 secondes) </p>
+	<p> Reset : rétablir le son d'origine </p>
+	</div>		
+</body>
+
+
+</html>
