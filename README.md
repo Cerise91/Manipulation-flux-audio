@@ -16,4 +16,4 @@ Mode visualisation de la fréquence :
 
 Mode visualisation de l'onde :
 
-![image](https://user-images.githubusercontent.com/78479547/120376450-332cb280-c31c-11eb-90ca-34aff3fc328c.png)
+![image](https://user-images.githubusercontent.com/78479547/120377252-2c526f80-c31d-11eb-9219-bce0b3712d54.png)
