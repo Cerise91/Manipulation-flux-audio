@@ -1,7 +1,7 @@
 // Initialisation du contexte audio
 var audio = new Audio();
 audio.crossOrigin = "anonymous";
-audio.src = "http://jplayer.org/audio/mp3/RioMez-01-Sleep_together.mp3";
+audio.src = "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3";
 audio.controls = true;
 
 var ctx, source, analyser, autreAnalyzer
@@ -59,7 +59,7 @@ function setupNodes(filtre) {
 
     if(filtre == "delay") {
         autreAnalyzer = ctx.createDelay(10)
-        autreAnalyzer.delayTime.value = 4
+        autreAnalyzer.delayTime.value = 2
     }
     
     source.connect(autreAnalyzer)
